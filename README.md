@@ -1,24 +1,35 @@
-# Next.js Hello World
+# Next.js
 
+[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
+[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/nextjs-hello-world/actions)
+[![License](https://img.shields.io/github/license/stackblaze-templates/nextjs-hello-world)](LICENSE)
 
-This example shows the most basic idea behind Next. We have 2 pages: `src/pages/index.js` and `src/pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities.
+A React framework for building full-stack web applications. Next.js provides server-side rendering, static generation, and API routes out of the box.
 
-The app in this repo is deployed at https://next-js.onstackblaze.com.
+> **Credits**: Built on [Next.js](https://nextjs.org) by [Vercel](https://vercel.com). All trademarks belong to their respective owners.
 
-## Deploy as Node Web Service
+## Deploy on StackBlaze
 
-Click the button below to deploy this app on Stackblaze.
+[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
-<a href="https://stackblaze.com/deploy" referrerpolicy="no-referrer-when-downgrade" rel="nofollow">
-  <img src="https://stackblaze.com/images/deploy-to-stackblaze-button.svg" alt="Deploy to Stackblaze" />
-</a>
+This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
-## Deploy as Static Site
+## Local Development
 
-1. Modify the code:
-    1. In `stackblaze.yaml`, replace the definition of the service named `next-js` with the definition that is commented out.
-    2. In `next.config.mjs`, uncomment the line that sets `output: "export"`.
+```bash
+docker compose up
+```
 
-2. Commit the code changes to your repository.
+See the project files for configuration details.
 
-3. Click the Deploy to Stackblaze button.
+---
+
+### Maintained by [StackBlaze](https://stackblaze.com)
+
+This template is actively maintained by StackBlaze. We perform **weekly automated checks** to ensure:
+
+- **Up-to-date dependencies** — frameworks, libraries, and base images are kept current
+- **Security scanning** — continuous monitoring for known vulnerabilities and CVEs
+- **Best practices** — configurations follow current recommendations from upstream projects
+
+Found an issue? [Open a ticket](https://github.com/stackblaze-templates/nextjs-hello-world/issues).
