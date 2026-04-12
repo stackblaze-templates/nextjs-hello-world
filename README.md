@@ -1,6 +1,6 @@
-<p align="center"><img src="logo.png" alt="nextjs-hello-world" width="120"></p>
-
 # Next.js [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/nextjs-hello-world/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/nextjs-hello-world)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+
+<p align="center"><img src="logo.png" alt="nextjs-hello-world" width="120"></p>
 
 A React framework for building full-stack web applications. Next.js provides server-side rendering, static generation, and API routes out of the box.
 
