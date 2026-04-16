@@ -1,4 +1,4 @@
-# Next.js [![Version](https://img.shields.io/badge/version-15-000000)](https://github.com/stackblaze-templates/nextjs-hello-world) [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/nextjs-hello-world/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/nextjs-hello-world)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+# Next.js [![Version](https://img.shields.io/badge/version-16-000000)](https://github.com/stackblaze-templates/nextjs-hello-world) [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/nextjs-hello-world/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/nextjs-hello-world)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 <p align="center"><img src="logo.png" alt="nextjs-hello-world" width="120"></p>
 
@@ -13,10 +13,10 @@ This template includes a `stackblaze.yaml` for one-click deployment on [StackBla
 ## Local Development
 
 ```bash
-docker compose up
+yarn dev
 ```
 
-See the project files for configuration details.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
